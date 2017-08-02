@@ -1,0 +1,37 @@
+<div class="logo">
+    <img src="../img/logo.png" alt="logo"></img>
+</div>
+
+<div class="list doctor_signupform card">
+    <label class="item item-input item-floating-label">
+    <span class="input-label">First Name</span>
+    <input type="text" placeholder="First Name" ng-model="doctor.firstname">
+  </label>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">Last Name</span>
+    <input type="text" placeholder="Last Name" ng-model="doctor.lastname">
+  </label>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="Email" ng-model="doctor.email">
+  </label>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">phone number</span>
+    <input type="text" placeholder="phone number" ng-model="doctor.phnumber">
+  </label>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">password</span>
+    <input type="password" placeholder="password" ng-model="doctor.password">
+  </label>
+    <label class="item item-input item-floating-label">
+    <span class="input-label">Confirm password</span>
+    <input type="password" placeholder="Confirm password" ng-model="doctor.confirm.password">
+  </label>
+
+</div>
+<div class="btn-toolbar doctor_signupbtngrp ">
+    <a class="button button-positive doctor_signupbtn" ng-click="signupdatasave()">Sign Up</a>
+    <a class="button button-positive doctor_signupcancelbtn" ng-click="clearform()">Cancel</a>
+
+</div>
+<a class="button icon-left ion-chevron-left button-clear button-dark" href=" #/login_before_screen">Back</a>

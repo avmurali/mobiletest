@@ -1,0 +1,95 @@
+/* Empty. Add your own CSS if you like */
+
+.has-header {
+    /*background: url('../img/backgroundimage.png') no-repeat center center fixed;
+
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover ;
+top: 0px;*/
+}
+
+.bar img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 40px;
+    /*-webkit-background-size: cover;
+   -moz-background-size: cover;*/
+}
+
+.logo img {
+    margin-left: auto;
+    margin-right: auto;
+    /*height: 100%;*/
+    max-width: 100%;
+    position: relative;
+    top: 40px;
+    margin-bottom: 35px;
+    /*-webkit-background-size: cover;
+   -moz-background-size: cover;*/
+}
+
+.doctorloginField {
+    margin-top: 59px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.doctorloginButton {
+    margin-left: 85px;
+    width: 200px;
+    background-color: #ff4a4a;
+}
+
+.doctorCancelButton {
+    margin-left: 85px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.forgotPasswordlink {
+    text-decoration: none;
+    margin-left: 85px;
+}
+
+.forgotPasswordlink:hover {
+    text-decoration: underline;
+}
+
+.login_icons {
+    margin-left: 85px;
+}
+
+.ion-social-facebook {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ion-social-twitter {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ion-social-google {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.doctor_signupbtngrp {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 30px;
+}
+
+.doctor_signupbtn {
+    width: 150px;
+    margin-right: 58px;
+    margin-left: 14px;
+}
+
+.doctor_signupcancelbtn {
+    width: 150px;
+}
